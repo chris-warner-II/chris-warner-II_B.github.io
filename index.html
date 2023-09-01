@@ -50,8 +50,8 @@
             <div class="project">
 
                 <div class="row">
-                  <img src="CA_model.png" alt="model" style="width:55%">
-                  <img src="CA_Robustness.png" alt="robust" style="width:35%">
+                  <img src="CA_model.png" alt="model" style="width:35%">
+                  <img src="CA_Robustness.png" alt="robust" style="width:55%">
                 </div>
 
                 <p>We introduce a novel, probabilistic binary latent variable model to detect noisy or approximate repeats of patterns in sparse binary data. The model is based on the "Noisy-OR model" (Heckerman, 1990), used previously for disease and topic modelling. The model's capability is demonstrated by extracting structure in recordings from retinal neurons, but it can be widely applied to discover and model latent structure in noisy binary data. In the context of spiking neural data, the task is to "explain" spikes of individual neurons in terms of groups of neurons, "Cell Assemblies" (CAs), that often fire together, due to mutual interactions or other causes. The model infers sparse activity in a set of binary latent variables, each describing the activity of a cell assembly. When the latent variable of a cell assembly is active, it reduces the probabilities of neurons belonging to this assembly to be inactive. The conditional probability kernels of the latent components are learned from the data in an expectation maximization scheme, involving inference of latent states and parameter adjustments to the model. We thoroughly validate the model on synthesized spike trains constructed to statistically resemble recorded retinal responses to white noise stimulus and natural movie stimulus in data. We also apply our model to spiking responses recorded in retinal ganglion cells (RGCs) during stimulation with a movie and discuss the found structure.</p>
