@@ -25,11 +25,13 @@
         </div>
     </section>
 
+    <hr />
+
     <section id="Representative Work">
         <div class="container">
             <h2>Projects</h2>
 
-            <h3>A Model for Image Segmentation in Retina</h3>
+            <h3>1. A Model for Image Segmentation in Retina</h3>
             <div class="project">
                 <div class="row">
                   <img src="img_seg_model.png" alt="model" style="width:45%">
@@ -37,11 +39,17 @@
                 </div>
                 <p>While traditional feed-forward filter models can reproduce the rate responses of retinal ganglion neurons to simple stimuli, they cannot explain why synchrony between spikes is much higher than expected by Poisson firing [6], and can be sometimes rhythmic [25, 16]. Here we investigate the hypothesis that synchrony in periodic retinal spike trains could convey contextual information of the visual input, which is extracted by computations in the retinal network. We propose a computational model for image segmentation consisting of a Kuramoto model of coupled oscillators whose phases model the timing of individual retinal spikes. The phase couplings between oscillators are shaped by the stimulus structure, causing cells to synchronize if the local contrast in their receptive fields is similar. In essence, relaxation in the oscillator network solves a graph clustering problem with the graph representing feature similarity between different points in the image. We tested different model versions on the Berkeley Image Segmentation Data Set (BSDS). Networks with phase interactions set by standard representations of the feature graph (adjacency matrix, Graph Laplacian or modularity) failed to exhibit segmentation performance significantly over the baseline, a model of independent sensors. In contrast, a network with phase interactions that takes into account not only feature similarities but also geometric distances between receptive fields exhibited segmentation performance significantly above baseline.</p>
             </div>
+
+            <hr />
+
             <div class="project">
                 <img src="project2.jpg" alt="Project 2">
                 <h3>A probabilistic latent variable model for detecting structure in binary data</h3>
                 <p>We introduce a novel, probabilistic binary latent variable model to detect noisy or approximate repeats of patterns in sparse binary data. The model is based on the "Noisy-OR model" (Heckerman, 1990), used previously for disease and topic modelling. The model's capability is demonstrated by extracting structure in recordings from retinal neurons, but it can be widely applied to discover and model latent structure in noisy binary data. In the context of spiking neural data, the task is to "explain" spikes of individual neurons in terms of groups of neurons, "Cell Assemblies" (CAs), that often fire together, due to mutual interactions or other causes. The model infers sparse activity in a set of binary latent variables, each describing the activity of a cell assembly. When the latent variable of a cell assembly is active, it reduces the probabilities of neurons belonging to this assembly to be inactive. The conditional probability kernels of the latent components are learned from the data in an expectation maximization scheme, involving inference of latent states and parameter adjustments to the model. We thoroughly validate the model on synthesized spike trains constructed to statistically resemble recorded retinal responses to white noise stimulus and natural movie stimulus in data. We also apply our model to spiking responses recorded in retinal ganglion cells (RGCs) during stimulation with a movie and discuss the found structure.</p>
             </div>
+
+            <hr />
+            
             <div class="project">
                 <img src="project3.jpg" alt="Project 3">
                 <h3>Computational poetry project</h3>
